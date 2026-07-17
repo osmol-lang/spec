@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 172" role="img" aria-label="Osmol logo">
+  <!-- OSMOL lockup — mark + wordmark -->
+  <defs>
+    <clipPath id="wL"><circle cx="64" cy="86" r="34.5"/></clipPath>
+    <clipPath id="wR"><circle cx="176" cy="86" r="34.5"/></clipPath>
+  </defs>
+
+  <rect x="24" y="92" width="80" height="34" fill="#14B8A8" clip-path="url(#wL)"/>
+  <rect x="136" y="92" width="80" height="34" fill="#14B8A8" clip-path="url(#wR)"/>
+  <line x1="12" y1="92" x2="228" y2="92" stroke="#14B8A8" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="64" cy="86" r="40" fill="none" stroke="#101A2B" stroke-width="11"/>
+  <circle cx="176" cy="86" r="40" fill="none" stroke="#101A2B" stroke-width="11"/>
+
+  <text x="286" y="118" font-family="'Instrument Sans', ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="0.5" fill="#101A2B">osmol</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 132" role="img" aria-label="Osmol mark: two vessels sharing one water level">
+  <!-- OSMOL mark — "Settled Water"
+       two vessels (the two o's) · one continuous level (bond, membrane, waterline)
+       equal water = equilibrium. there is no send. -->
+  <defs>
+    <clipPath id="vL"><circle cx="64" cy="66" r="34.5"/></clipPath>
+    <clipPath id="vR"><circle cx="176" cy="66" r="34.5"/></clipPath>
+  </defs>
+
+  <!-- settled water -->
+  <rect x="24" y="72" width="80" height="34" fill="#14B8A8" clip-path="url(#vL)"/>
+  <rect x="136" y="72" width="80" height="34" fill="#14B8A8" clip-path="url(#vR)"/>
+
+  <!-- one level through both -->
+  <line x1="12" y1="72" x2="228" y2="72" stroke="#14B8A8" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- the vessels -->
+  <circle cx="64" cy="66" r="40" fill="none" stroke="#101A2B" stroke-width="11"/>
+  <circle cx="176" cy="66" r="40" fill="none" stroke="#101A2B" stroke-width="11"/>
+</svg>
