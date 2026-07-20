@@ -1,4 +1,9 @@
-<p align="center"><img src="osmol-lockup.svg" width="420" alt="osmol"></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="osmol-lockup-dark.png">
+    <img src="osmol-lockup-light.png" width="420" alt="osmol">
+  </picture>
+</p>
 
 # The Osmol Specification
 
